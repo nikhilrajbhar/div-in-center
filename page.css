@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.bg{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    opacity: 9;
+}
+
+.maincontainer{
+    width:  582.7356px;
+    height:372.231px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+         
+    background-color:white;
+}
+
+
+header{
+    width:  582.7356px ;
+    height: 35.2783px ;
+    padding-top:7px ;
+    
+       }
+
+
+.mainheader{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.mainheader nav a{
+    font-size: 5.59pt;
+    text-decoration: none;
+    color:#DE980D;
+    justify-content: space-around;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.logo h1{
+    font-size: 7.30pt;
+    color: #DE640D;
+    padding-top: 6px ;
+}
+
+
+main{
+    width:  582.7356px ;
+    height:341.4466px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.right-sec img{
+    width: 248px;
+    height: 230.0189px ;
+    
+    
+}
+
+.left-sec{
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    margin-top: 50px;
+
+    
+}
+
+.left-sec h6{
+    padding-left: 6px;
+    font-size: 8.27pt;
+    color:#DE640D;
+   
+    
+    
+}
+
+.left-sec h1{
+    font-size: 46.6pt;
+    color:#DE980D;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left-sec p{
+    padding-left: 2px;
+    font-size: 7.12pt;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    justify-content:space-around;
+    padding-bottom: 15px;
+    
+}
+
+button{
+    font-size: 7pt;
+    background-color: #DE640D;
+    color:white;
+    position: relative;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-style:hidden;
+    border-radius: 50px;
+    
+
+}
+
+.menubutton{
+    color:grey;
+    }
+
+#btn{
+        padding:10px; 
+}
+
+#bottom{
+    padding-top: 30px;
+}
